@@ -12,12 +12,14 @@
             background-color: #f8f9fa;
         }
         .logo {
-            width: 200px;
-            height: auto;
-            margin-bottom: 20px;
+            display: inline-block;
+            vertical-align: middle;
+            height: 40px;
+            margin: 0 10px;
         }
         h1 {
             color: #333;
+            font-size: 28px;
         }
         p {
             font-size: 18px;
@@ -25,13 +27,13 @@
         }
         .btn {
             display: inline-block;
-            padding: 12px 20px;
-            margin-top: 20px;
+            padding: 12px 24px;
             font-size: 16px;
             color: white;
             background-color: #007BFF;
             text-decoration: none;
             border-radius: 5px;
+            margin-top: 20px;
         }
         .btn:hover {
             background-color: #0056b3;
@@ -39,8 +41,9 @@
     </style>
 </head>
 <body>
-    <img src="logo.svg" alt="Min Life ロゴ" class="logo">
-    <h1>ようこそ みんライフ へ</h1>
+    <h1>
+        ようこそ <img src="logo.svg" alt="minlife" class="logo"> へ
+    </h1>
     <p>このサイトでは、みんライフ に関する情報を掲載しています。</p>
     <a href="privacy/" class="btn">▶ プライバシーポリシーはこちら</a>
 </body>
